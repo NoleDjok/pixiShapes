@@ -1,0 +1,42 @@
+{
+  "name": "pixishape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoleDjok/pixiShapes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoleDjok/pixiShapes/issues"
+  },
+  "homepage": "https://github.com/NoleDjok/pixiShapes#readme",
+  "description": "",
+  "dependencies": {
+    "area-polygon": "^1.0.1",
+    "bootstrap": "^4.5.2",
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "less": "^3.12.2",
+    "less-loader": "^5.0.0",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
